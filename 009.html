@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <title>Animation</title>
+    <style>
+        h1{
+            background-color: aqua;
+            animation: bgchange 1s infinite alternate;
+        }
+        @keyframes bgchange {
+            0%{}
+            50%{
+                background-color: brown;
+            }
+            60%{
+                background-color: blue;
+            }
+            75%{
+                background-color: yellow;
+            }
+            90%{
+                background-color: green;
+            }
+            100%{
+                background-color: blueviolet;
+            }
+                
+        }
+    </style>
+</head>
+<body>
+    <h1>動畫測試</h1>
+    <p>你也曾是最美的花朵</p>
+    <p>驚豔過歲月開在我心窩</p>
+    <p>照片上你的那件花襯衫</p>
+    <p>我說等我長大要給我穿</p>    
+    <div data-aos="fade-up">
+    <img src="https://picsum.photos/200/300/?blur=2" alt="">
+    </div>
+    <img src="https://picsum.photos/200/300?grayscale" alt="">
+    
+    <script>
+        AOS.init();
+    </script>
+</body>

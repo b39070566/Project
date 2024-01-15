@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+.album{
+    background-color:tan;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.pcard {
+    background-color:steelblue;
+    width: 23%
+
+}
+
+.pcard .pic {
+    height: 250px;
+    overflow: hidden;
+}
+
+.pic {
+    height: 250px;
+    overflow: hidden;
+}
+
+.pcard img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+

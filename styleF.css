@@ -1,0 +1,13 @@
+header {
+    background-color: bisque;
+}
+footer {
+    background-color: black;
+    color: lightgray;
+    text-align: center;
+    padding: 3.5rem;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
